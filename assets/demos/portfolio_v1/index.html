@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="This is a portfolio.">
+
+
+	<title>Portfolio</title>
+	
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+
+
+</head>
+<body>
+
+	<div class="navbar" id="nav">
+		<div id="navbar-placement">
+			<a href="#home">home</a>
+			<a href="#portfolio">portfolio</a>
+			<a href="#about">about</a>
+			<a href="#contact">contact</a>
+			<a href="javascript:void(0);" style="font-size:20px;" class="menu_icon" onclick="menu()">&#9776;</a>
+		</div>
+	</div>
+
+
+<div class="fullscreen background" style="background-image:linear-gradient(
+	rgba(255, 255, 255, 0.3),
+	rgba(255, 255, 255, 0.3)
+	), url('images/helena-hertz-295994.jpg');" data-img-width="1024" data-img-height="679">
+	<span class="anchor" id="home"></span>
+	<div class="content-a">
+		<div class="title-bg">
+			<div class="title">
+				<h1>portfolio</h1>
+			</div>
+			<div class="author">
+				<h3>author</h3>
+			</div>
+		</div>
+		
+	</div> <!-- endof content a -->
+</div> <!-- endof fullscreen bg -->
+
+
+
+<div style="background-image:linear-gradient(
+	rgba(255, 255, 255, 0.8),
+	rgba(255, 255, 255, 0.8)
+	), url('images/brandi-redd-122054');">
+
+			<span class="anchor" id="portfolio"></span>
+			
+			<div class="grid" style="margin-top:-6%;">
+				<div class="grid-sizer"></div>
+				
+					<div class="grid-item">
+						<img id="distant" onClick="getId(this.id)" class="fit" src="images/lukas-blazek-261681.jpg" />
+					</div>
+
+				
+				<div class="grid-item">
+					<img id="driftfocus" onClick="getId(this.id)" class="fit" src="images/9-Kasarski-greben-spring-1-8.jpg" />
+				</div>
+				
+				
+			</div> <!-- endof grid -->
+			
+			<div id="distant-info" class="modal">
+				<div class="modal-content">
+					<span onClick="closeModal()" class="close-btn">&times;</span>
+					<h3>wood.</h3>
+					<p>
+					This is not wood.
+					</p>
+					
+				</div>
+			</div> <!-- endof modal -->
+			<div id="driftfocus-info" class="modal">
+				<div class="modal-content">
+					<span onClick="closeModal()" class="close-btn">&times;</span>
+					<h3>spring</h3>
+				</div>
+			</div> <!-- endof modal -->
+
+</div> <!-- endof fullscreen bg -->
+
+
+
+<div class="fullscreen background" style="background-image:linear-gradient(
+	rgba(255, 255, 255, 0.8),
+	rgba(255, 255, 255, 0.8)
+	),url('images/helena-hertz-256396.jpg" data-img-width="1600" data-img-height="1067">
+	
+		<div class="content-a" style="padding:10%">
+		<div class="content-b">
+		<span class="anchor" id="about"></span>
+		<h1>about</h1>
+		<p>
+			Hello!<br>
+			<a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;</a>
+			<a href="#"><i class="fa fa-soundcloud" aria-hidden="true"></i>&nbsp;</a>
+			<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;</a>
+			<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;</a>
+		</p>
+		
+			</div> <!-- endof content-b -->
+		</div> <!-- endof content a -->
+</div> <!-- endof fullscreen bg -->
+
+
+<div class="fullscreen background" style="background-image:linear-gradient(
+rgba(255, 255, 255, 0.8),
+rgba(255, 255, 255, 0.8)
+	),url('images/wildtextures-creased-white-paper-texture.jpg')" data-img-width="1024" data-img-height="680">
+	
+		<div class="content-a" style="padding:10%">
+			<div class="content-b">
+				<span class="anchor" id="contact"></span>
+				<h1>contact</h1>
+				<p>Please don't hesitate to get in touch.</p>
+				
+				<a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;</a>
+				<a href="#"><i class="fa fa-soundcloud" aria-hidden="true"></i>&nbsp;</a>
+				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;</a>
+				<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;</a>
+				
+			</div> <!-- endof content-c -->
+		</div> <!-- endof content a -->
+</div> <!-- endof fullscreen bg -->
+
+
+
+<p id="copyright">
+<a href="/" style="text-transform:none">website developed by ilsetse</a>
+</p>
+
+
+	<!-- Javascript -->
+	<script
+	src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+	integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+	crossorigin="anonymous"></script>
+
+
+
+
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	 <![endif]-->
+
+
+	<script src="js/modal.js"></script>
+	<script src="js/masonry_grid.js"></script>
+	<script src="js/fullscreen_images.js"></script>
+	<script src="js/navbar.js"></script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
