@@ -24,11 +24,11 @@ h2 {
 
 a {
 	text-decoration: none;
-	color: #333333;
+	color: #844B4D;
 }
 
 a:hover {
-	color: #CBA2A2;
+	color: #A4777E;
 }
 
 nav a,span {
@@ -47,6 +47,44 @@ nav a,span {
 	border-color: #997379;
 	padding: 20px 50px;
 }
+
+/*
+.overlay-container {
+	position: relative;
+	display: block;
+	width: 300px;
+	height: 300px;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: 0.5s ease;
+	background-color: #333333;
+}
+
+.overlay-container:hover .overlay {
+	opacity: 1;
+	transition: 0.5s ease;
+}
+
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+*/
 
 img {
 	max-width: 100%;
