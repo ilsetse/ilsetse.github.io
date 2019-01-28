@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 0.3px;
 	margin:0;
 	padding-bottom:3px;
+    font-weight:bold;
 }
 
 h1 {
@@ -22,6 +23,9 @@ h2 {
 	font-variant: small-caps;
 }
 
+h3 {
+	font-size: 1.4rem;
+}
 a {
 	text-decoration: none;
 	color: #844B4D;

@@ -2,17 +2,17 @@
 <html lang="en">
 <head>
 
-	<!-- CSS -->
-	<link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
 
 	<!-- JQUERY -->
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script> <!-- for loading html -->
 	<script src="js/load_code.js"></script>
 
 	<div id="header"></div>
-  <title>Ilse Tse | Portfolio</title>
+  <title>Ilse Tse</title>
 
 </head>
 <body>
@@ -23,51 +23,131 @@
   <div class="row">
     <div class="three columns">
       <img src="images/profile.jpg" width="100px" height="100px"><br><br>
-        <p style="width:120px;margin-top:-20px;">Student at the University of Helsinki. Pursuing M.Sc. in Data Science</p>
+        <h2>PROFILE</h2>
+        <p style="width:140px">
+            M.Sc. Data Science student at the University of Helsinki. <br><br>
+            Junior data scientist with 2 years of experience in collaborative
+            multi-disciplinary project work. Skilled in machine learning
+            techniques, data visualization. Passionate about (health tech) projects 
+            that give back to the community.</p>
         <h2>PORTFOLIO</h2>
-          <p>
-            <a href="computer-vision">Computer Vision</a><br>
-						<a href="idv">Data Visualization</a><br>
-            <a href="web_dev">Web Development</a><br>
-            <a href="illustrations">Illustrations</a><br>
-          </p> 
+          <p>Github @ <a href="https://github.com/ilsetse">ilsetse</a></p>
 
          <h2>CONTACT</h2>
           <p>
           Ilse Tse<br>
           <a href="mailto:ilsetse@gmail.com">ilsetse@gmail.com</a>
           </p>
-
     </div> <!-- endof three columns -->
-    
-    <div class="nine columns">
-      <!-- <img src="images/canny_laplacian_cover" width="80%"> -->
-			<div class='grid'>
-				<div class='grid-sizer'>
-				
-					<div class="overlay-container">
-						<div class='grid-item'>
-							<a href="computer-vision#data_scraping"><img src="images/1_Still_Life_with_Cabbage_and_Clogs.jpg"></img></a>
-						</div>
-					  <div class="overlay">
-							<!-- <div class="text">Data Scraping</div> -->
-						</div>
-					</div> <!-- endof overlay-container -->
-					
-					<div class="overlay-container">
-						<div class='grid-item'>
-							<a href="computer-vision#edge_detection"><img src="images/canny_laplacian_cover.png"></img></a>
-						</div>
-					  <div class="overlay">
-							<!-- <div class="text">Edge Detection</div> -->
-						</div>
-					</div> <!-- endof overlay-container -->
-					
+   
+    <!-- start cv -->
+    <div class="seven columns">
+    <h2>EDUCATION</h2>
+    <h3>M.Sc. Data Science -- May 2019 (In progress) </h3>
+    University of Helsinki, Finland <br>
+    Thesis topic: Classify neonatal EEGs into gradings using multi-class
+    classification algorithms (hybrid SVM/HMM, neural networks) on data provided by
+    Helsinki's <a href="http://www.babacenter.fi/">BAby Brain Activity (BABA) Center</a>
 
-				</div> <!-- endof grid sizer -->
-			</div> <!-- endof grid -->
-    </div> <!-- endof nine columns -->
-  </div> <!-- endof row -->
+    <br><br>
+    <h3>B.S. Cognitive Science w/ specialization in Computation -- Mar 2017 </h3>
+    Double minor in <strong>Computer Science</strong> and <strong>Psychology</strong> <br>
+    University of California San Diego, U.S.A.
+
+    <br><br>
+    <h2>PROFESSIONAL EXPERIENCE</h2>
+    <h3>Team Member at <a href="https://www.demola.net/">Demola</a> Helsinki -- Jan 2019 - Mar 2019 (In progress) </h3>
+    Partner with <a href="https://elisa.fi/">Elisa</a>, a telecommunication company, in an Agile 8-week project
+    case: From Supply Chain to Supply Stream. <br> Analyze challenges of supply
+    chain professionals and develop prototype solutions to digitalize and
+    automate supply chain management
+
+    <br><br>
+    <h3>Data Scientist Volunteer for Statistics Without Borders -- Nov 2018 - Jan 2019 </h3>
+    Used mixed-effects statistical models in R on longitudinal data to analyze
+    conflict resolution strategies for The Cheetah Conservation Fund. <br>
+    Interpreted results of multiple imputations used on missing data in final
+    report.
+
+    <br><br>
+    <h3>Data Science Intern at Kalyankar Analytics -- Jul 2018 - Aug 2018 </h3>
+    Cleaned & transformed semi-structured data to build JS demos of a
+    choropleth map using Leaflet, Datamaps, OpenLayers, Polymaps <br> Wrote AWS
+    Lambda functions that generated geoJSON data, called & tested it with APIs
+    created on Amazon API Gateway <br> Researched and implemented a toy NLG
+    example
+
+    <br><br>
+    <h3>Software Developer Intern at <a href="https://www.thetalklist.com/">The Talk List</a> -- Sep 2016 - Feb 2017 </h3>  
+    Exceeded translating assigned number of UI layouts into XML code from PSD
+    design specs, and proceeded ahead of time to program back-end functions in
+    Java Initiated idea of and created an InVision prototype displaying page
+    sequences, increasing productivity of developers
+
+    <br><br>
+    <h3>Web developer and Illustrator at <a href="http://keepitinside.com/">keepitinside</a> -- Nov 2016 </h3>
+    Designed and built website from ground up using HTML/CSS/PHP/Javascript, 
+    Masonry grids <br>
+    Designed logo and album / song art for music releases using Figma, Autodesk Sketchbook
+
+    <br><br>
+    <h2>PROJECTS</h2>
+    <h3>Improving Product Order Relevancy for E-Commerce</h3>
+    Collaborative coursework with partner company <a href="https://www.k-rauta.fi">K-Rauta</a> <br>
+    Produced search engine demo on Flask that improved product order relevancy
+    upon user search with machine learning (Multinomial Naive Bayes algorithm),
+    calling data with REST API Authentication
+
+    <br><br>
+    <h3>Visualizing Earthquakes with data called from USGS's API </h3>
+    Used D3.js to create histogram & bar graph to visualize earthquake magnitudes <br>
+    Created a heat map of earthquakes using Google Maps Javascript API <br>
+    Built web app with Flask and deployed onto Heroku
+
+    <br><br>
+    <h3>Vincent van Gogh's Works (as listed on Wikipedia)</h3>
+    Data scraping -- Used Beautiful Soup to retrieve 911 images of Vincent Van
+    Gogh's work from the Wikipedia entry <br> 
+    Edge detection -- Used
+    OpenCV to compare the performance of the Canny Edge Detector versus LoG on
+    Still Life with Cabbage and Clogs by van Gogh <br>
+    Sharpened the image using Laplacian of Gaussian technique
+
+    <br><br>
+    <h2>UNDERGRADUATE RESEARCH</h2>
+    <h3>Quantifying the Difficulty of Design Space Exploration -- Jan 2016 - Nov 2016 </h3>
+    Paper accepted to the Design Automation Conference for Poster Session (2017) <br>
+    Presented project at the 29th Annual Undergraduate Research Conference at UC San Diego
+
+    <br><br>
+    <h3> Improving Structure from Motion Efficiency -- Apr 2014 </h3>
+    Assisted in optimizing feature matching in the SFM algorithm using Intel Intrinsics (Similar algorithm: SFM Toy Library) <br>
+    Presented project at the 28th Annual Undergraduate Research Conference at UC San Diego
+
+    <br><br>
+    <h2>VOLUNTEER EXPERIENCE</h2>
+    <h3>Events Planning Committee Member at AIESEC Helsinki</h3>
+    Plan and organize events to encourage and maintain active member participation and wellbeing
+    <h3>Team Leader of Outgoing Global Volunteer at AIESEC Helsinki</h3>
+    Managed team and collaborated with members to develop and execute marketing strategies, and organize events <br>
+    <i>Organizing Committee President of NatCon 2019</i><br>
+    Collaborated in team to organize conference and gala in Helsinki
+
+    <br><br>
+    <h3>Project Coordinator at Women for Women Workshops </h3>
+    Organized STEM related workshops to empower women in Helsinki through sharing knowledge and community collaboration
+    Communicated with partners to secure funds & venues for workshops
+
+    <br><br>
+    <h2>TOOLS</h2>
+    Python (Pandas, NumPy, SciPy, OpenCV, scikitlearn, matplotlib, TensorFlow),
+    R, Matlab, SQL, AWS EC2, Lambda, API Gateway, basic Spark / Hadoop, basic
+    STAN, JavaScript/JQuery, Plotly, Heroku, Flask, D3.js, basic Java, basic
+    C/C++, HTML / CSS, XML, basic PHP, Github, BitBucket, Agile framework
+
+    </div>
+    <!-- end cv -->
+    </div> <!-- endof row -->
 
 
 
