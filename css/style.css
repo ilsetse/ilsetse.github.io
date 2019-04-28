@@ -1,5 +1,5 @@
 body {
-	font-family: 'Cormorant Garamond', serif;
+	font-family: 'EB Garamond', serif;
 	color: #333333;
 }
 
@@ -106,7 +106,7 @@ img {
 
 .grid {
 	margin: auto;
-}
+
 
 /* clear fix */
 .grid:after {
@@ -123,6 +123,7 @@ img {
 	background: #cba2a2; /* grid item frame color*/
 	margin: 10px 5px;
 }
+
 
 
 .footnote {
