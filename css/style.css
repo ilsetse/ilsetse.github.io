@@ -37,7 +37,7 @@ a:hover {
 
 nav a,span {
 	vertical-align: text-bottom;
-  padding-right: 10px;
+    padding-right: 10px;
 }
 
 #nav_placeholder {
@@ -104,9 +104,10 @@ img {
   height: 1200px;
 }
 
+
 .grid {
 	margin: auto;
-
+}
 
 /* clear fix */
 .grid:after {
