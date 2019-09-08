@@ -37,15 +37,16 @@
         <div class="seven columns">
             <h1>Hello!</h1>
               <p>
-              My name is Ilse and I am currently a M.Sc. Data Science student
-              at the University of Helsinki in Finland. 
+              My name is Ilse and I am currently a Data Scientist at Qolsys.
               I specialize in machine learning and data visualization, and 
-              I'm also interested in bioinformatics and computer vision. I hope 
-              to apply these skills in health technology.
+              I'm also interested in computer vision. I hope to apply these skills 
+              in health technology.
                 
               <br><br>
-              I graduated in 2017 from UC San Diego with a B.S. in Cognitive Science w/
-              specialization in Computation, double minor in Computer Science and Psychology.
+              I graduated in 2019 with a M.Sc. in Data Science at the University
+              of Helsinki in Finland, and in 2017 with a B.S. in Cognitive Science w/
+              specialization in Computation, double minor in Computer Science and Psychology 
+              from UC San Diego. 
               </p>
         </div> <!-- endof sevencol -->
     </div> <!-- endof row -->
